@@ -20,7 +20,10 @@ WriteMakefile(
     'MAN3PODS'     => $manpage,
     'VERSION_FROM' => 'Version.pm', # finds $VERSION
     'PREREQ_PM'    => { 'News::Article' => 1.27, 'Net::NNTP' => 2.19,
-			'Net::NNTP::Functions' => 0.21, 'Net::Domain' => 2 },
+			'Net::NNTP::Functions' => 0.21, 'Net::Domain' => 2,
+			'Date::Parse' => 0, },
     'PM'	   => $modules,
     'dist' => { COMPRESS => 'gzip', SUFFIX => 'gz' },
+    'AUTHOR'    => 'tskirvin@killfile.org (Tim Skirvin)',
+    'ABSTRACT_FROM'  => 'News/Overview.pm',
 );

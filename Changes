@@ -1,5 +1,8 @@
 Revision history for Perl extension News::Overview
 
+0.11.02		Fri Apr 23 09:51:19 CDT 2004 
+	- Put a prereq of Date::Parse into Makefile.PL
+
 0.11.01		Fri Apr 23 09:51:19 CDT 2004 
 	- Put a prereq of Net::NNTP::Functions into Makefile.PL
 
